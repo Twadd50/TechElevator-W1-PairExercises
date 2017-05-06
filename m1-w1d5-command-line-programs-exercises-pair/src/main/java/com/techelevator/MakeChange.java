@@ -27,7 +27,7 @@ public class MakeChange {
 		String amountPaidString = scanner.nextLine();
 		double amountPaid = Double.parseDouble(amountPaidString);
 		
-		double changeAmount = restaurantBill - amountPaid;
+		double changeAmount = amountPaid - restaurantBill;
 		
 		System.out.print("Your change is: " + changeAmount);
 
