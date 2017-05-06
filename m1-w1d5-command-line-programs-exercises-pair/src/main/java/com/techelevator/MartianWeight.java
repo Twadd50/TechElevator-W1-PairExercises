@@ -28,22 +28,14 @@ public class MartianWeight {
 		String userWeights = scanner.nextLine();
 		String[] weightsStringArray = userWeights.split(" ");
 		
+		
 		for(int i = 0; i < weightsStringArray.length; i++) {
-			
-			
-			
-			
+				
 			int earthWeight = Integer.parseInt(weightsStringArray[i]);
-			
 			
 			 int marsWeight = (int)(earthWeight * .378);
 			 
 			 System.out.println( earthWeight + " lbs Pounds on Earth, is " + marsWeight + " lbs on Mars.");
-			
-			
-			 
-			
-			
 			
 		}
 
@@ -52,9 +44,4 @@ public class MartianWeight {
 }
 
 
-
-
-
-
-//String[] items = sampleString.split(",");
 
